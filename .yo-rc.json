@@ -1,0 +1,16 @@
+{
+  "generator-easy-ui5": {
+    "projectname": "erpacademy",
+    "namespace": "com.kpmg",
+    "platform": "Static webserver",
+    "viewtype": "XML",
+    "viewname": "Overview",
+    "ui5libs": "Content delivery network (SAPUI5)",
+    "newdir": true,
+    "namespaceURI": "com/kpmg",
+    "uimodules": [
+      "uimodule"
+    ],
+    "setupCompleted": true
+  }
+}
