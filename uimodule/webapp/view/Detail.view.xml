@@ -1,0 +1,12 @@
+<mvc:View controllerName="com.kpmg.erpacademy.controller.Detail" displayBlock="true" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+  <App id="Detail">
+    <pages>
+      <Page title="Detail">
+        <content>
+          <!-- <Button text="Navigate to BACK!" press=".onNavBack"></Button> -->
+
+        </content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>

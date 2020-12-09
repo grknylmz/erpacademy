@@ -1,11 +1,22 @@
- <mvc:View controllerName="com.kpmg.erpacademy.controller.Overview"
-  displayBlock="true"
-  xmlns="sap.m"
-  xmlns:mvc="sap.ui.core.mvc">
-  <App id="idAppControl" >
+<mvc:View controllerName="com.kpmg.erpacademy.controller.Overview" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+  <!-- <Page title="Overview">
+    <content>
+      <Button text="Navigate to Detail" press=".onPress"></Button>
+    </content>
+  </Page> -->
+  <App id="Overview">
     <pages>
-      <Page title="{i18n>title}">
-        <content></content>
+      <Page title="Overview">
+        <content>
+          <!-- <Button text="Navigate to Detail" press=".onPress"></Button> -->
+          <VBox fitContainer="true">
+            <List headerText="Users" items="{
+              path: '/UsersSet'
+            }">
+              <StandardListItem title="{Firstname}" />
+            </List>
+          </VBox>
+        </content>
       </Page>
     </pages>
   </App>
